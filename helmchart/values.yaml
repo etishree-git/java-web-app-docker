@@ -7,10 +7,10 @@ replicaCount: 1
 containerPort: 8080
 
 image:
-  repository: dockerhandson/java-web-app
+  repository: etishreebehera/java-web-app-docker
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "latest"
+  tag: "3"
 
 imagePullSecrets: []
 nameOverride: ""
